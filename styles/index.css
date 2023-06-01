@@ -27,6 +27,12 @@
     background-color: rgba(245, 245, 250, 0.2);;
 }
 
+.hb-logo_wrapper {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .nav_langs {
     display: flex;
 }
