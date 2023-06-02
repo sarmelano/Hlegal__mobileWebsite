@@ -8,7 +8,14 @@
 
 .header {
     height: 600px;
+}
 
+.header_wrapper:first-of-type {
+    padding-left: 5.87%;
+}
+
+.header_wrapper:last-child {
+    padding-right: 5.87%;
 }
 
 .header_wrapper {
@@ -24,7 +31,12 @@
 
 .header_top {
     height: 45px;
-    background-color: rgba(245, 245, 250, 0.2);;
+    background-color: rgba(245, 245, 250, 0.2);
+    margin-bottom: 15px;
+}
+
+.header_bottom  {
+    padding-bottom: 140px;
 }
 
 .hb-logo_wrapper {
@@ -47,3 +59,7 @@
     color: var(--color-white);
 }
 
+.phone-number {
+line-height: 20px;
+color: var(--color-white);
+}
