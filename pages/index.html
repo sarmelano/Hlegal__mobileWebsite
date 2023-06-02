@@ -21,10 +21,15 @@
 
             <div class="header_top header_wrapper">
 
-                <ul class="ul nav_langs">
-                    <li class="langs"><button class="btn lang fw700" type="button">MX</button></li>
-                    <li class="langs"><button class="btn lang fw700" type="button">EN</button></li>
-                </ul>
+                <form action="#" class="form_lang">
+                    <input class="radio_langs" id="radio-lang_mx" type="radio" name="language" value="mx">
+                    <label class="radio_lang fw700" for="radio-lang_mx">MX</label>
+
+
+
+                    <input class="radio_langs" id="radio-lang_en" type="radio" name="language" value="en" checked>
+                    <label class="radio_lang fw700" for="radio-lang_en">EN</label>
+                </form>
 
                 <span class="phone">
                     <a class="phone-number fw700 a" href=”tel:#”>0800 211 927</a>
@@ -34,12 +39,12 @@
 
             <div class="header_bottom header_wrapper">
 
-                <div class="hb-logo_wrapper">
-                    <a href="../pages/index.html"><img src="../images/Logo.svg" width="69.5" alt="logotype Hlegal"></a>
+                <div>
+                    <a href="../pages/index.html"><img src="../images/Logo.svg" width="69" alt="logotype Hlegal"></a>
                 </div>
 
-                <nav class="hb-mobile_nav">
-                   
+                <nav class="hb-burger">
+                    <button class="btn">
                         <img src="../images/home/menu-icon.svg" alt="logo menu">
                     </button>
                     <!-- Mobile navigation should go here -->
@@ -55,22 +60,21 @@
 
                 <button class="btn scroll-btn_home" type="button">
 
-                    <svg id="scroll" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="scroll" width="42" height="42" viewBox="0 0 42 42" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_22728_11339)">
-                        <circle opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2"/>
-                        <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2"/>
+                            <circle opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2" />
+                            <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
                         </g>
                         <defs>
-                        <clipPath id="clip0_22728_11339">
-                        <rect width="42" height="42" fill="white"/>
-                        </clipPath>
+                            <clipPath id="clip0_22728_11339">
+                                <rect width="42" height="42" fill="white" />
+                            </clipPath>
                         </defs>
-                        </svg>                        
+                    </svg>
 
                 </button>
             </div>
-
-
 
         </header>
 
