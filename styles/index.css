@@ -7,13 +7,13 @@
 }
 
 /*===============< HEADER >===================*/
-.header_wrapper {
+.top_wrapper {
     padding: 0 4%;
     margin: 0 auto;
 }
 
 .header_top,
-.header_bottom {
+.main_top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-bottom: 15px;
 }
 
-.header_bottom {
+.main_top {
     padding-bottom: 130px;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .phone-number {
-    line-height: 20px;
+    line-height: 1.25rem;
     color: var(--color-white);
 }
 
@@ -76,7 +76,7 @@
     margin: 0;
     width: calc(100% - 315px/2);
     font-size: 2.375rem;
-    line-height: 46px;
+    line-height: 2.875rem;
     text-align: center;
     color: var(--color-white);
 }
