@@ -18,36 +18,58 @@
 
     <div class="container375">
 
-        <header class="header_top top_wrapper">
+        <header class="header">
 
-            <form action="#" class="form_lang">
-                <input class="radio_langs" id="radio-lang_mx" type="radio" name="language" value="mx">
-                <label class="radio_lang fw700" for="radio-lang_mx">MX</label>
+            <div class="header_top top_wrapper">
 
-                <input class="radio_langs" id="radio-lang_en" type="radio" name="language" value="en" checked>
-                <label class="radio_lang fw700" for="radio-lang_en">EN</label>
-            </form>
+                <form action="#" class="form_lang">
+                    <input class="radio_langs" id="radio-lang_mx" type="radio" name="language" value="mx">
+                    <label class="radio_lang fw700" for="radio-lang_mx">MX</label>
 
-            <span class="phone">
-                <a class="phone-number fw700 a" href=”tel:#”>0800 211 927</a>
-            </span>
+                    <input class="radio_langs" id="radio-lang_en" type="radio" name="language" value="en" checked>
+                    <label class="radio_lang fw700" for="radio-lang_en">EN</label>
+                </form>
 
-        </header>
+                <span class="phone">
+                    <a class="phone-number fw700 a" href=”tel:#”>0800 211 927</a>
+                </span>
 
-        <main>
+            </div>
 
             <div class="main_top top_wrapper">
 
-                <div>
+                <!-- <div>
+                    <a href="../pages/index.html"><img src="../images/Logo.svg" width="69" alt="logotype Hlegal"></a>
+                </div> -->
+
+
+
+                <!--===================================================-->
+                <div class="container">
+                    <!-- HIDDEN TOGGLE -->
+                    <input id="toggle" type="checkbox">
+
+                    <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+
+                    <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+                    <label class="toggle-container" for="toggle">
+                        <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+                        <span class="button button-toggle"></span>
+                    </label>
+
+                    <!-- Навигация -->
+                    <nav class="nav_burger">
+                        <a class="nav-item a" href="#">About us</a>
+                        <a class="nav-item a" href="#">Services</a>
+                        <a class="nav-item a" href="#">Team</a>
+                        <a class="nav-item a" href="#">Publications</a>
+                        <a class="nav-item a" href="#">Contact</a>
+                    </nav>
+                </div>
+                <!--===================================================-->
+                <div class="logo">
                     <a href="../pages/index.html"><img src="../images/Logo.svg" width="69" alt="logotype Hlegal"></a>
                 </div>
-
-                <nav class="hb-burger">
-                    <button class="btn">
-                        <img src="../images/home/menu-icon.svg" alt="logo menu">
-                    </button>
-                    <!-- Mobile navigation should go here -->
-                </nav>
 
             </div>
 
@@ -75,6 +97,16 @@
                 </button>
             </div>
 
+        </header>
+
+        <section class="categories">
+            <ul class="ul categories-list">
+                <li class="category category-active">Consistent</li>
+                <li class="category">Customer oriented</li>
+                <li class="category">Innovative</li>
+                <li class="category">Business oriented</li>
+            </ul>
+        </section>
 
 
 
@@ -87,7 +119,8 @@
 
 
 
-        </main>
+
+
 
     </div>
 
