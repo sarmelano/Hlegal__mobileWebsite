@@ -455,23 +455,30 @@
 /*===============</TEAM >===================*/
 /*===============<PARTNERS >===================*/
 
-.partners-article {
-   position: relative;
-}
-
 .partners-heading {
-   position: absolute;
+   display: flex;
+   justify-content: center;
    font-weight: 700;
    font-size: 14px;
    line-height: 17px;
    letter-spacing: 1px;
    text-transform: uppercase;
    color: #323264;
-   left: 50%;
-   transform: translate(-50%);
+
    margin-bottom: 30px;
 }
 
 .partners_logos {
    display: grid;
 }
+
+.partners_logos-desktop {
+   display: none;
+}
+
+.partners_logo {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+/*===============</PARTNERS >===================*/
