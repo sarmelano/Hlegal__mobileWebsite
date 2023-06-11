@@ -328,7 +328,6 @@
 
 .services-link::after {
    content: "\003E";
-   margin-left: -0.1875rem;
 }
 
 .splash {
@@ -358,10 +357,10 @@
 
 /*===============</MAIN>===================*/
 /*shadows trick*/
-.container315_shadows {
+/* .container315_shadows {
    max-width: 315px;
    margin: 0 auto;
-}
+} */
 
 .d {
    background-color: #CACADB;
@@ -400,13 +399,8 @@
 }
 
 .gen-dir_quote {
-   font-weight: 700;
-   font-size: 23px;
-   line-height: 35px;
-   background: var(--bg-gradient_text);
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   font-size: 1.4375rem;
+   line-height: 2.1875rem;
    margin: 15px 0 10px 0;
 }
 
@@ -454,6 +448,10 @@
 /*carusel-swipper*/
 /*===============</TEAM >===================*/
 /*===============<PARTNERS >===================*/
+.partners-article {
+   width: 375px;
+   margin: 0 auto;
+}
 
 .partners-heading {
    display: flex;
@@ -482,3 +480,7 @@
    height: auto;
 }
 /*===============</PARTNERS >===================*/
+/*===============<PUBLICATIONS >===================*/
+.publications {
+   display: grid;
+}
