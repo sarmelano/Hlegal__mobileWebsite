@@ -1,5 +1,5 @@
 .container375 {
-   max-width: 375px;
+   min-width: 375px;
    margin: 0 auto;
    background: var(--bg-gradient);
    background-size: cover;
@@ -100,7 +100,7 @@
 }
 
 /*===============</HEADER >===================*/
-/*===============<BURGER >===================*/
+/*===============<BURGER MOBILE>===================*/
 
 .container {
    position: relative;
@@ -207,7 +207,7 @@
    position: relative;
    display: flex;
    color: transparent;
-   font-size: 14px;
+   font-size: 0.875rem;
    letter-spacing: -4.4px;
    height: 7px;
    line-height: 7px;
@@ -243,14 +243,36 @@
    transition: 0.5s;
 }
 
-/*===============</BURGER >===================*/
+/*===============</BURGER MOBILE>===================*/
+/*===============<NAV-DESKTOP>===================*/
+.nav-desktop_items {
+   display: flex;
+}
 
+.nav-desktop_item {
+   margin-right: 15px;
+   font-weight: 700;
+   line-height: 20px;
+}
+
+.nav-desktop_item:last-child {
+   margin-right: 0;
+}
+
+.nav-desktop_link {
+   color: var(--color-white);
+}
+
+
+
+
+
+/*===============</NAV-DESKTOP>===================*/
 .logo {
    position: relative;
    padding-top: 1.07rem;
    padding-right: 0.4375rem;
 }
-
 /*===============<CATEGORIES >===================*/
 .container315 {
    max-width: 315px;
@@ -297,13 +319,13 @@
 }
 
 .synopsis-title {
-   font-size: 20px;
+   font-size: 1.25rem;
    line-height: 24px;
    color: var(--color-white);
 }
 
 .synopsis-subtitle {
-   font-size: 19px;
+   font-size: 1.1875rem;
    line-height: 30px;
    color: var(--color-white);
 }
@@ -340,7 +362,7 @@
 }
 
 .services-title {
-   font-size: 22px;
+   font-size: 1.375rem;
    line-height: 27px;
    color: var(--color-blue);
    margin: 30px 0 15px 0;
@@ -370,17 +392,22 @@
 
 /*shadows trick*/
 /*===============<TEAM >===================*/
+.gen-dir_wrapper {
+   display: flex;
+   place-content: center;
+   margin-bottom: 25px;
+}
 
 .gen-dir_pic {
    background-color: white;
    border-radius: 50%;
-   margin-bottom: 25px;
 }
 
 .home-team_carusel {
    background-color: #F5F5FA;
    border-radius: 12px;
    margin-bottom: 30px;
+   padding-top: 30px;
 }
 
 .home-team_wrapper {
@@ -403,7 +430,7 @@
 
 .signature {
    color: #aabde6;
-   font-size: 11px;
+   font-size: 0.6875rem;
    line-height: 22px;
    margin: 0px 0 30px 0;
 }
@@ -436,7 +463,6 @@
    background-color: #24A3FF;
 }
 
-/*carusel-swipper*/
 /*===============</TEAM >===================*/
 /*===============<PARTNERS >===================*/
 .partners-section,
@@ -453,7 +479,7 @@
 }
 
 .partners-heading {
-   font-size: 14px;
+   font-size: 0.875rem;
    line-height: 17px;
    letter-spacing: 1px;
    text-transform: uppercase;
@@ -463,6 +489,7 @@
 
 .partners_logos {
    display: grid;
+
 }
 
 .partners_logos-desktop {
@@ -471,9 +498,7 @@
 
 .partners_logo,
 .publication-picture {
-   display: block;
    width: 100%;
-   height: auto;
 }
 
 /*===============</PARTNERS >===================*/
@@ -501,7 +526,7 @@
 .publication-date {
    display: block;
    font-weight: 700;
-   font-size: 12px;
+   font-size: 0.75rem;
    line-height: 15px;
    letter-spacing: 1px;
    text-transform: uppercase;
@@ -511,7 +536,7 @@
 }
 
 .publication-event {
-   font-size: 14px;
+   font-size: 0.875rem;
    line-height: 22px;
    color: black;
    padding: 11px 0 30px 0;

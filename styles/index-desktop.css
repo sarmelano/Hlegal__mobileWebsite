@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+    .nav-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    .container375 {
+        max-width: 768px;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .main_top {
+        flex-direction: column-reverse;
+    }
+}
