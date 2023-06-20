@@ -11,6 +11,7 @@
    <link rel="stylesheet" href="../normalize.css">
    <link rel="stylesheet" href="../styles/fonts.css">
    <link rel="stylesheet" href="../styles/index.css">
+   <link rel="stylesheet" href="../styles/index-desktop.css">
    <link rel="stylesheet" href="../styles/variables.css">
 </head>
 
@@ -21,26 +22,28 @@
       <header class="header">
 
          <div class="header_top top_wrapper">
+
             <form action="#" class="form_lang">
                <input class="radio_langs" id="radio-lang_mx" type="radio" name="language" value="mx">
                <label class="radio_lang fw700" for="radio-lang_mx">MX</label>
-
                <input class="radio_langs" id="radio-lang_en" type="radio" name="language" value="en" checked>
                <label class="radio_lang fw700" for="radio-lang_en">EN</label>
             </form>
-            <span class="phone">
+
+            <span>
                <a class="phone-number fw700 a" href=”tel:#”>0800 211 927</a>
             </span>
 
          </div>
 
          <div class="main_top top_wrapper">
-            <!--===-=-=-=-=--=-=-=<TOGGLE>-=-=-=-=-=-=-=-=-=-->
+            <!--=============<TOGGLE-MOBILE>=============-->
             <div class="container">
                <!-- HIDDEN TOGGLE -->
                <input id="toggle" type="checkbox">
                <label class="toggle-container" for="toggle">
-                  <span class="button button-toggle"></span></label>
+                  <span class="button button-toggle"></span>
+               </label>
 
                <nav class="nav_burger">
                   <a class="nav-item a" href="#">About us</a>
@@ -49,32 +52,42 @@
                   <a class="nav-item a" href="#">Publications</a>
                   <a class="nav-item a" href="#">Contact</a>
                </nav>
+
             </div>
-            <!--===-=-=-=-=--=-=-=</TOGGLE>-=-=-=-=-=-=-=-=-=-->
+            <!--============</TOGGLE-MOBILE>=============-->
+            <!--=============<NAVIGATION-DESKTOP>=============-->
+            <nav class="nav-desktop">
+               <ul class="ul nav-desktop_items">
+                  <li class="nav-desktop_item"><a class="a nav-desktop_link" href="#">about us</a></li>
+                  <li class="nav-desktop_item"><a class="a nav-desktop_link" href="#">services</a></li>
+                  <li class="nav-desktop_item"><a class="a nav-desktop_link" href="#">team</a></li>
+                  <li class="nav-desktop_item"><a class="a nav-desktop_link" href="#">publications</a></li>
+                  <li class="nav-desktop_item"><a class="a nav-desktop_link" href="#">contact</a></li>
+               </ul>
+            </nav>
+            <!--=============</NAVIGATION-DESKTOP>=============-->
+
             <div class="logo">
-               <a href="../pages/index.html"><img src="../images/Logo.svg" width="69" alt="logotype Hlegal"></a>
+               <a href="../pages/index.html"><img class="responsive" src="../images/Logo.svg" 
+                     alt="logotype Hlegal"></a>
             </div>
 
          </div>
-
 
          <div class="tittle-wrapper">
             <h1 class="title fw700">you legal solutions provider</h1>
          </div>
 
+         <div class="scroll-home__wrapper">
 
-         <div class="scroll-btn_home__wrapper">
-
-            <button class="btn scroll-btn_home" type="button">
+            <a class="a scr" href="#ankor">
 
                <svg id="scroll" width="42" height="42" viewBox="0 0 42 42" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
-
                   <g clip-path="url(#clip0_22728_11339)">
                      <circle opacity="0.5" cx="21" cy="21" r="20" stroke="white" stroke-width="2" />
                      <path d="M12 18L21 27L30 18" stroke="white" stroke-width="2" />
                   </g>
-
                   <defs>
                      <clipPath id="clip0_22728_11339">
                         <rect width="42" height="42" fill="white" />
@@ -83,28 +96,29 @@
 
                </svg>
 
-            </button>
+            </a>
 
          </div>
 
       </header>
       <!--================================</HEADER>======================================-->
       <!--================================<MAIN>======================================-->
-
       <main class="container315">
 
          <div class="artice-head_container">
+
             <ul class="ul categories-list">
                <li class="category category-active">Consistent</li>
                <li class="category">Customer oriented</li>
                <li class="category">Innovative</li>
                <li class="category">Business oriented</li>
             </ul>
+
          </div>
 
          <div class="synopsis">
 
-            <h3 class="synopsis-title">We turn the idea of legal services</h3>
+            <h3 class="fw700 synopsis-title">We turn the idea of legal services</h3>
 
             <p class="synopsis-subtitle">Consolidating many years of experience and practice, the company's lawyers
                accompany complex projects
@@ -114,14 +128,17 @@
          </div>
 
          <article>
+
             <a class="a services-link" href="#">Services </a>
-            <h2 class="splash">What can we do better than others?</h2>
+
+            <h2 class="fw700 splash">What can we do better than others?</h2>
+
          </article>
 
          <section class="services">
 
             <div>
-               <img src="../images/home/servises/Icon1.svg" alt="">
+               <img class="responsive" src="../images/home/servises/Icon1.svg" alt="cursour logotype">
                <h3 class="services-title">IT and e-commerce</h3>
                <p class="services-subtitle">An endless stream of contracts, tax issues, labor relations, corporate
                   papers - legal work
@@ -130,7 +147,7 @@
             </div>
 
             <div>
-               <img src="../images/home/servises/Icon.svg" alt="">
+               <img class="responsive" src="../images/home/servises/Icon.svg" alt="bag logotype">
                <h3 class="services-title">Comprehensive daily
                   legal support</h3>
                <p class="services-subtitle">In addition, over time, the work will become the same type and
@@ -139,7 +156,7 @@
             </div>
 
             <div>
-               <img src="../images/home/servises/Icon3.svg" alt="">
+               <img class="responsive" src="../images/home/servises/Icon3.svg" alt="Structuring logotype">
                <h3 class="services-title">Structuring corporate relationships</h3>
                <p class="services-subtitle">Instead of just providing legal services, we will hire a lawyer or a
                   whole team that will fit into the daily life of your company.</p>
@@ -147,7 +164,7 @@
 
 
             <div>
-               <img src="../images/home/servises/Icon4.svg" alt="">
+               <img class="responsive" src="../images/home/servises/Icon4.svg" alt="relations logotype">
                <h3 class="services-title">Building contractual relations</h3>
                <p class="services-subtitle">Once a week, or week after month, you have your own lawyer by your
                   side. Anyone in the company can catch it at the coffee maker and just talk about current affairs
@@ -155,7 +172,7 @@
             </div>
 
             <div>
-               <img src="../images/home/servises/Icon5.svg" alt="">
+               <img class="responsive" src="../images/home/servises/Icon5.svg" alt="Protection logotype">
                <h3 class="services-title">Protection of business, intellectual property</h3>
                <p class="services-subtitle">And all the other time he will work on new diverse projects, so he will
                   definitely not stop in professional development. One way or another, all Axon Partners will work
@@ -163,7 +180,7 @@
             </div>
 
             <div>
-               <img src="../images/home/servises/Icon6.svg" alt="">
+               <img class="responsive" src="../images/home/servises/Icon6.svg" alt="Judicial logotype">
                <h3 class="services-title">Judicial representation</h3>
                <p class="services-subtitle">Is it a small, medium-sized company or a market leader? Local business
                   or multinational company? Do you have your own legal department or not?</p>
@@ -173,27 +190,29 @@
 
       </main>
       <!--================================</MAIN>======================================-->
-
    </div>
    <!--shadows trick-->
-   <div class="container315_shadows">
+   <div class="container315">
       <div class="d"></div>
       <div class="d2"></div>
    </div>
    <!--/shadows trick-->
 
-   <!--===-=-=-=-=--=-=-=<TEAM>-=-=-=-=-=-=-=-=-=-->
-   <section class="container315">
+   <!--==============<TEAM>===============-->
+   <div class="container315">
 
       <div class="home-team_carusel">
+         <div class="gen-dir_wrapper">
 
-         <img class="gen-dir_pic" src="../images/home/self.jpg" alt="General director of Hlegal picture" width="315">
-
+            <img class="gen-dir_pic responsive" src="../images/home/self.avif" alt="General director of Hlegal picture"
+               width="215">
+         </div>
          <div class="home-team_wrapper">
 
             <a class="a services-link" href="#">Team </a>
 
-            <p class="gen-dir_quote"><q> We are accustomed to taking responsibility and always guarantee honest, timely
+            <p class="splash gen-dir_quote"><q> We are accustomed to taking responsibility and always guarantee honest,
+                  timely
                   assistance, even in
                   situations
                   where most people are powerless.</q>
@@ -201,7 +220,7 @@
 
             <div class="signature_wrapper">
 
-               <img src="../../gen_dir.svg" alt="D. Donets" width="70">
+               <img class="responsive" src="../images/home/gen_dir.svg" alt="D. Donets" width="70">
                <span class="signature">General director</span>
 
             </div>
@@ -218,48 +237,123 @@
          </nav>
       </div>
       <!--carusel-swipper-->
+   </div>
+   <!--====================</TEAM>====================-->
+   <!--====================<PARTNERS>=================-->
+   <section class="partners-section">
 
-      <!--===-=-=-=-=--=-=-=</TEAM>-=-=-=-=-=-=-=-=-=-->
-      <!--===-=-=-=-=--=-=-=<PARTNERS>-=-=-=-=-=-=-=-=-=-->
+      <div class="partners-heading_wrapper">
 
-      <article class="partners-article">
+         <h4 class="fw700 partners-heading">Our partners</h4>
 
-         <h4 class="partners-heading">Our partners</h4>
+      </div>
 
-         <div class="partners_logos">
-            <img class="partners_logo" src="" alt="">
-            <img class="partners_logo" src="" alt="">
-            <img class="partners_logo" src="" alt="">
-            <img class="partners_logo" src="" alt="">
-            <img class="partners_logo" src="" alt="">
-            <img class="partners_logo" src="" alt="">
+      <div class="partners_logos">
+
+         <img class="partners_logo responsive" src="../images/home/partners/partner1.png" alt="hillel">
+         <img class="partners_logo responsive" src="../images/home/partners/partner2.png" alt="wannabiz">
+         <img class="partners_logo responsive" src="../images/home/partners/partner3.png" alt="tapgerine">
+         <img class="partners_logo responsive" src="../images/home/partners/partner4.png" alt="3d look">
+         <img class="partners_logo responsive" src="../images/home/partners/partner5.png" alt="orangear">
+         <img class="partners_logo responsive" src="../images/home/partners/partner6.png" alt="adtelligent">
+
+         <div class="partners_logos-desktop">
+
+            <img class="partners_logo responsive" src="../images/home/partners/partner7.png" alt="clickky">
+            <img class="partners_logo responsive" src="../images/home/partners/partner8.png" alt="eco leasing">
+            <img class="partners_logo responsive" src="../images/home/partners/partner9.png" alt="infratek">
+            <img class="partners_logo responsive" src="../images/home/partners/partner10.png" alt="city park">
+            <img class="partners_logo responsive" src="../images/home/partners/partner11.png" alt="art-print studio">
+            <img class="partners_logo responsive" src="../images/home/partners/partner12.png" alt="ultimate card">
+
+         </div>
+
+      </div>
+      <!--====================</PARTNERS>=============-->
+      <!--================<PUBLICATIONS>==============-->
+      <article id="ankor" class="publications container315">
+
+         <a class="a services-link" href="#">publications</a>
+
+         <h2 class="splash">We have something to tell you</h2>
+
+         <div class="publication">
+
+            <img class="publication-picture responsive" src="../images/home/publications/publication1.png"
+               alt="work-time picture">
+            <div class="publication_wrapper">
+               <a class="a publication-link" href="#">Equity associate</a>
+               <time class="publication-date">2023-10-04</time>
+               <p class="publication-event">I'm a jun on projects. I am a co-owner of a law firm. How it happened.
+                  Before
+                  entering my parents told me
+                  that if I…</p>
+            </div>
+
+         </div>
+
+         <div class="publication">
+
+            <img class="publication-picture responsive" src="../images/home/publications/publication2.png"
+               alt="GDPR logotype">
+            <div class="publication_wrapper">
+               <a class="a publication-link" href="#">Penalty for the Good Corporation: what will happen to Google and
+                  others for violating the
+                  GDPR</a>
+               <time class="publication-date">2023-09-24</time>
+               <p class="publication-event">And why the recovery of 50 million euros could be a fateful precedent
+                  According
+                  to Mind.ua January 21
+                  National Commission for Data Protection.</p>
+            </div>
+
+         </div>
+
+         <div class="publication">
+
+            <img class="publication-picture responsive" src="../images/home/publications/publication3.png"
+               alt="team work picture">
+            <div class="publication_wrapper">
+               <a class="a publication-link" href="#">Millennial Testament</a>
+               <time class="publication-date">2023-09-04</time>
+               <p class="publication-event">What and how modern vloggers, opinion leaders and crypto-millionaires will
+                  inherit A typical legacy of the
+                  Ukrainian generation X looks like this: an apartment in…</p>
+            </div>
+
          </div>
 
       </article>
 
-
-
-
-
-
-
    </section>
+   <!--================</PUBLICATIONS>==============-->
+   <!--================<FOOTER>=====================-->
+   <footer class="footer">
 
+      <div class="container315 footer_wrapper">
 
+         <span class="footer-adress">Kyiv, Mechnikova str., 14/1</span>
 
+         <a class="a fw700 footer-map" href="https://goo.gl/maps/o19dxosyordnm4m59" target="_blank">On map</a>
 
+         <div class="social-media_wrapper">
 
+            <img src="../images/facebook.svg" alt="facebook link" width="38">
 
+            <a href="https://www.instagram.com/dima_donets/" target="_blank"><img src="../images/inst.svg"
+                  alt="instagram link" width="38"></a>
 
+         </div>
 
+         <a class="phone-number footer-phone-number fw700 a" href=”tel:+15598267254”>0800 211 927</a>
 
+         <a class="a fw700 footer-email" href="mailto:sarmelano.ca@gmail.com">contact@forstudy.space</a>
+         <span class="footer-llc">© 2021 HLEGAL Law company, LLC</span>
 
+      </div>
 
-
-
-
-
-
+   </footer>
+   
 
 </body>
 
